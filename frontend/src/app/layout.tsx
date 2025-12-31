@@ -1,6 +1,7 @@
 import "@/app/globals.css";
 import { type Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Navigation } from "@shared/navigation";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} antialiased`}
       >
+        <Navigation />
         {children}
       </body>
     </html>
