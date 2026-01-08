@@ -1,5 +1,5 @@
 export default function Page() {
     return (
-        <h2>Welcome to Register Page</h2>
+        <h2>Login Page</h2>
     )
 }

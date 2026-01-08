@@ -25,7 +25,9 @@ export default function RootLayout({
         className={`${inter.className} antialiased`}
       >
         <Navigation />
-        {children}
+        <main className="min-h-screen flex justify-center items-center relative -top-24">
+          {children}
+        </main>
       </body>
     </html>
   );

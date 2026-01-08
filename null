@@ -1,0 +1,7 @@
+#!/bin/bash
+set -euo pipefail;
+
+for file_name in name avatar otp phone-email username
+do
+	install /dev/null > "$HOME/projects/web/convocloud/frontend/src/components/steps/step-$file_name.tsx";
+done

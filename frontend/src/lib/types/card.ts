@@ -1,0 +1,1 @@
+export type CardActionButtonType = { action: "REGISTER" | "LOGIN" };
