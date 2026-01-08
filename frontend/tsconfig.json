@@ -29,6 +29,9 @@
       "@components/*": [
         "./src/components/*"
       ],
+      "@shadcn/*": [
+        "./src/components/ui/*"
+      ],
       "@shared/*": [
         "./src/components/shared/*"
       ],
